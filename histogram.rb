@@ -7,3 +7,8 @@ words.each { |word| frequencies[word] += 1 }
 frequencies = frequencies.sort_by {|a, b| b }
 frequencies.reverse!
 frequencies.each { |word, frequency| puts word + " " + frequency.to_s }
+
+pets = Hash.new
+pets["Ruby"] = "cool"
+
+puts pets["Ruby"]
