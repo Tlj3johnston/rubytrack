@@ -20,4 +20,4 @@ set = false
 end
 
 final.each {|x| print x}
-puts
+puts ""
